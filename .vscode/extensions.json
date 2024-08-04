@@ -7,7 +7,9 @@
     "csstools.postcss",
     "yoavbls.pretty-ts-errors",
     "aaron-bond.better-comments",
-    "imgildev.vscode-nextjs-generator"
+    "imgildev.vscode-nextjs-generator",
+    "streetsidesoftware.code-spell-checker",
+    "mhutchie.git-graph"
   ],
   "unwantedRecommendations": []
 }
