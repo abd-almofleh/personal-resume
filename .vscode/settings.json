@@ -17,5 +17,6 @@
     "strings": "on"
   },
   "i18n-ally.keystyle": "nested",
-  "typescript.format.insertSpaceAfterConstructor": true
+  "typescript.format.insertSpaceAfterConstructor": true,
+  "conventionalCommits.scopes": ["vscode"]
 }
