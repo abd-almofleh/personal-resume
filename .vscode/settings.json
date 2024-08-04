@@ -1,0 +1,22 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.preferences.importModuleSpecifier": "relative",
+
+  "i18n-ally.localesPaths": ["public/locales"],
+  "i18n-ally.enabledFrameworks": ["react-i18next"],
+  "i18n-ally.extract.keygenStyle": "snake_case",
+  "i18n-ally.extract.keyMaxLength": 100,
+  // to allow the import of types as `import type { Foo } from 'bar'` instead of `import { Foo } from 'bar'` if the type is only used for type annotations
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+
+  // For Tailwind autocompletion in tsx-files
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "i18n-ally.keystyle": "nested",
+  "typescript.format.insertSpaceAfterConstructor": true,
+  "conventionalCommits.scopes": ["vscode"]
+}

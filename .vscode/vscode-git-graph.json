@@ -1,0 +1,7 @@
+{
+    "issueLinkingConfig": {
+        "issue": "#(\\d+)",
+        "url": "https://github.com/abd-almofleh/personal-resume/issues/$1"
+    },
+    "exportedAt": 1722780723313
+}
