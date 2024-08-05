@@ -1,5 +1,6 @@
 import Image from 'next/image';
 
+import SocialNetworks from '../app/components/SocialNetworks';
 import { RESUME_DATA } from '../data/resume-data';
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
             height={500}
             className=""
           />
+          <SocialNetworks SocialNetworksData={RESUME_DATA.socialNetworks} />
         </div>
         <div className="mx-5 border-l border-black" />
         <div className="w-2/3 bg-blue-50"></div>

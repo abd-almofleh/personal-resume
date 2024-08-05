@@ -3,4 +3,10 @@ export type ResumeData = {
   lastName: string;
   get fullName(): string;
   avatarUrl: string;
+  socialNetworks: {
+    SocialNetworkIcon: string;
+    SocialNetworkName: string;
+    SocialNetworkLink: string;
+    UserName: string;
+  }[];
 };
