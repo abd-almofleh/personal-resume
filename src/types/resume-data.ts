@@ -12,4 +12,5 @@ export type ResumeData = {
 
   avatarUrl: string;
   socialNetworks: SocialNetworkData[];
+  aboutMe: string;
 };
