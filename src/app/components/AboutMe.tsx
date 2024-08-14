@@ -1,12 +1,14 @@
 import React from 'react';
 
-import type { ResumeData } from '../../types';
+import { RESUME_DATA } from '../../data/resume-data';
 
-export default function AboutMe({ data }: any) {
+export default function AboutMe() {
   return (
-    <div className='flex flex-col p-2'>
-      <h2 className='uppercase text-xl font-semibold spacing tracking-widest pb-1 mb-3 border-b border-black w-fit'>about me</h2>
-      <p>{data}</p>
+    <div className="flex flex-col p-2">
+      <h2 className="spacing mb-3 w-fit border-b border-black pb-1 font-libreCaslonText text-xl font-semibold uppercase tracking-widest">
+        about me
+      </h2>
+      <p className="font-LinuxLibertine">{RESUME_DATA.aboutMe}</p>
     </div>
   );
 }

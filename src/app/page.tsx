@@ -21,7 +21,7 @@ export default function Home() {
         </div>
         <div className="mx-5 border-l border-black" />
         <div className="w-2/3">
-          <AboutMe data={RESUME_DATA.aboutMe} />
+          <AboutMe />
         </div>
       </section>
     </main>
