@@ -18,6 +18,8 @@ const SocialLink = ({ icon, name, userName, link }: SocialNetworkData) => {
 };
 
 export default function SocialNetworks({ SocialNetworksData }: SocialNetworksProps) {
+
+  
   const socialNetworksElements = SocialNetworksData.map((data: SocialNetworkData) => (
     <SocialLink
       key={data.name}

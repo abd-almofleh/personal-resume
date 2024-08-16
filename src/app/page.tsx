@@ -4,6 +4,7 @@ import SocialNetworks from '../app/components/SocialNetworks';
 import { RESUME_DATA } from '../data/resume-data';
 
 import AboutMe from './components/AboutMe';
+import PersonalInformation from './components/PersonalInformation';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
             height={500}
             className=""
           />
+          <PersonalInformation />
           <SocialNetworks SocialNetworksData={RESUME_DATA.socialNetworks} />
         </div>
         <div className="mx-5 border-l border-black" />
